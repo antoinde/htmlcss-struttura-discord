@@ -12,7 +12,7 @@
 
 
 header{ /* Qui ci andrà lo sfondo */
-    background-color: #3161e0;
+    background-color: #404eed;
 }
 
 .margin_container{
@@ -35,4 +35,8 @@ header{ /* Qui ci andrà lo sfondo */
 
 .contenitore_momentaneo_immagine img{
     width: 100%;
+}
+
+section{
+    height: vh;
 }
