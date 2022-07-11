@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* UTILITYS */
+
+.bg_color_white{background-color: white;}
+.bg_color_grey{background-color: #aaaaaa;}
+
+
 header{ /* Qui ci andrà lo sfondo */
     background-color: #3161e0;
 }
