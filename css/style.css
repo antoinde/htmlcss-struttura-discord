@@ -10,6 +10,9 @@
 .bg_color_white{background-color: white;}
 .bg_color_grey{background-color: #aaaaaa;}
 
+body{
+    font-size: 1rem;
+}
 
 header{ /* Qui ci andrà lo sfondo */
     background-color: #404eed;
@@ -37,3 +40,30 @@ header{ /* Qui ci andrà lo sfondo */
     width: 100%;
 }
 
+/* FOOTER */
+footer{
+    background-color: #23272a;
+}
+
+.flex{display: flex;}
+
+.footer_column1{
+    flex-direction: column;
+}
+
+.footer_column2{
+    flex-direction: column;
+}
+
+.footer_column3{
+    flex-direction: column;
+}
+
+.footer_column4{
+    flex-direction: column;
+}
+
+footer .margin_container{
+    padding: 20px;
+    column-gap: 60px;
+}
