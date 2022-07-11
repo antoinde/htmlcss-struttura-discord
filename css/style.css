@@ -12,6 +12,8 @@
 
 body{
     font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
 }
 
 header{ /* Qui ci andrà lo sfondo */
@@ -64,6 +66,22 @@ footer{
 }
 
 footer .margin_container{
-    padding: 20px;
-    column-gap: 60px;
+    background-color: #23272a;
+    color: white;
+    font-size: 0.9rem;
+    padding: 40px;
+    column-gap: 90px;
+}
+
+footer .margin_container a{    text-decoration: none;}
+footer .margin_container a:visited{ color: white;}
+
+.info_box h1{
+    color: #5865f2;
+    line-height: 1.9rem;
+}
+
+.special_font_color{
+    color: #5865f2;
+    font-weight: 800;
 }
