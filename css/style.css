@@ -5,3 +5,28 @@
     box-sizing: border-box;
 }
 
+header{ /* Qui ci andrà lo sfondo */
+    background-color: #3161e0;
+}
+
+.margin_container{
+    margin: 0 230px;
+    min-width: 600px;
+    background-color: blueviolet;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu_area{
+    display: flex;
+    column-gap: 30px;
+}
+
+.contenitore_momentaneo_immagine img{
+    width: 100%;
+}
