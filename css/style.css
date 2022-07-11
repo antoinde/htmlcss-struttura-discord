@@ -18,7 +18,7 @@ header{ /* Qui ci andrà lo sfondo */
 .margin_container{
     margin: 0 230px;
     min-width: 600px;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 
 .nav{
@@ -37,6 +37,3 @@ header{ /* Qui ci andrà lo sfondo */
     width: 100%;
 }
 
-section{
-    height: vh;
-}
