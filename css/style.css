@@ -85,3 +85,19 @@ footer .margin_container a:visited{ color: white;}
     color: #5865f2;
     font-weight: 800;
 }
+
+.blue_row{
+    border: 1px solid #5865f2;
+    margin: 0 230px;
+}
+
+.footer_info{
+    justify-content: space-between;
+}
+
+.footer_info span{
+    height: 40px;
+    background-color: #5865f2;
+    border-radius: 20px;
+    padding: 9px 20px;
+}
