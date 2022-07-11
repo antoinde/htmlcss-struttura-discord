@@ -16,6 +16,9 @@ body{
     font-weight: 600;
 }
 
+
+/* HEADER */
+
 header{ /* Qui ci andrà lo sfondo */
     background-color: #404eed;
 }
@@ -31,16 +34,39 @@ header{ /* Qui ci andrà lo sfondo */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #404eed;
+    color: white;
 }
 
 .nav_menu_area{
     display: flex;
     column-gap: 30px;
+    color: white;
+    
 }
 
+.nav_menu_area a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_login_area a{
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 9px 20px;
+    color: black;
+}
+
+/* /HEADER */
+
+
+/* SEZIONI */
 .contenitore_momentaneo_immagine img{
     width: 100%;
 }
+/* /SEZIONI */
+
 
 /* FOOTER */
 footer{
