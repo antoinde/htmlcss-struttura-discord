@@ -4,14 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ---- /BODY RESET ---- */
+/* ---- /BODY RESET ------------------------------------------- */
 
 /* ----UTILITYS---- */
 .bg_color_white{background-color: white;}
 .bg_color_grey{background-color: #aaaaaa;}
 .flex{display: flex;}
 .footer_flex-column{flex-direction: column;}
-/* ----/UTILITYS---- */
+/* ----/UTILITYS----------------------------------------------- */
 
 
 body{
@@ -21,7 +21,7 @@ body{
 }
 
 
-/* HEADER */
+/* ---HEADER--- */
 
 header{ /* Qui ci andrà lo sfondo */
     background-color: #404eed;
@@ -62,17 +62,17 @@ header{ /* Qui ci andrà lo sfondo */
     color: black;
 }
 
-/* /HEADER */
+/* ---/HEADER--------------------------------------------------- */
 
 
-/* SEZIONI */
+/* ---SEZIONI--- */
 .contenitore_momentaneo_immagine img{
     width: 100%;
 }
-/* /SEZIONI */
+/* ---/SEZIONI-------------------------------------------------- */
 
 
-/* FOOTER */
+/* ---FOOTER--- */
 footer{
     background-color: #23272a;
 }
@@ -113,3 +113,4 @@ footer .margin_container a:visited{ color: white;}
     border-radius: 20px;
     padding: 9px 20px;
 }
+/* ---/FOOTER--------------------------------------------------- */
