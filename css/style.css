@@ -1,14 +1,18 @@
-/* RESET BODY*/
+/* ---- BODY RESET ---- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* ---- /BODY RESET ---- */
 
-/* UTILITYS */
-
+/* ----UTILITYS---- */
 .bg_color_white{background-color: white;}
 .bg_color_grey{background-color: #aaaaaa;}
+.flex{display: flex;}
+.footer_flex-column{flex-direction: column;}
+/* ----/UTILITYS---- */
+
 
 body{
     font-size: 1rem;
@@ -71,24 +75,6 @@ header{ /* Qui ci andrà lo sfondo */
 /* FOOTER */
 footer{
     background-color: #23272a;
-}
-
-.flex{display: flex;}
-
-.footer_column1{
-    flex-direction: column;
-}
-
-.footer_column2{
-    flex-direction: column;
-}
-
-.footer_column3{
-    flex-direction: column;
-}
-
-.footer_column4{
-    flex-direction: column;
 }
 
 footer .margin_container{
